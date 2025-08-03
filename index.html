@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Immaculate Kamunya | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  body {
+  /* background: url('Imma pHOTO.jpeg') no-repeat center center fixed; */
+  /* background-size: cover; */
+  background-color:grey;
+  color: #333;
+  line-height: 1.6;
+}
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      color: white;
+    }
+    .profile-container {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 20px;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      z-index: 2;
+      border: 4px solid #fff;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 800; 
+  text-transform: uppercase; 
+}
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .download-btn {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #0a19e7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 15px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #0ae783;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #08c973;
+}
+    .card {
+      background:#03e470;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222222ac;
+      color: #ffffff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <div class="profile-container">
+    <div class="ring"></div>
+    <img src="Imma pHOTO.jpeg" alt="Profile Picture" class="profile-pic" />
+  </div>
+  <h1>Immaculate Kamunya</h1>
+  <p> TECH ENTHUSIAST | WEB DEVELOPER | FUTURE TECH BILLIONAIRE</p>
+  <div style="text-align: right; margin: 10px 20px 0 0;">
+  <a href="IMMACULATE CV.pdf" download class="download-btn">Download CV</a>
+</div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+ <section id="about">
+  <details>
+    <summary class="section-title"> About Me</summary>
+    <p style="color: rgba(245, 243, 243, 0.963);">
+       Hi, I am Immaculate Kamunya — a tech enthusiast, aspiring next tech-dollar billionaire, and a growing  website developer. I'm passionate about building impactful digital experiences and constantly exploring how technology can solve real-world problems. With every line of code I write, I get one step closer to turning big ideas into powerful web solutions — and eventually, a tech empire. Welcome to my journey!
+    </p>
+  </details>
+</section>
+
+  <section id="skills">
+  <details>
+    <summary class="section-title">Skills</summary>
+    <div class="skills">
+      <div class="card">SQL</div>
+      <div class="card">Basic HTML & CSS</div>
+      <div class="card">JavaScript (Basic)</div>
+      <div class="card">Python (Beginner) </div>
+      <div class="card">Git & GitHub</div>
+    </div>
+  </details>
+</section>
+  <section id="projects">
+  <details>
+    <summary class="section-title">Projects</summary>
+    <div class="projects">
+      <div class="card">
+        <h3>Article</h3>
+        <p>A responsive website that showcases my skills, background, and projects.Built using HTML5 only.</p>
+        <a href="https://github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-IKamunya-web" target="_blank">View Project on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>My Portfolio</h3>
+        <p>A web-based solution that showcases another one of my tech-driven ideas. This project demonstrates clean UI and functional design in action.</p>
+         <a href="https://github.com/IKamunya-web/PLP_SEE" target="_blank">View Project on GitHub</a>
+      </div>
+    </div>
+  </details>
+</section>
+
+  <details>
+    <forms class="section-title">CONTACT ME</forms>
+    <summary class="section-title">Contact Me</summary>
+    <p style="color: rgba(243, 236, 236, 0.916);">Email: iwanjuguk@gmail.com</p>
+    <p style="color: rgba(235, 233, 233, 0.968);">Phone: +254715331200/ +254114397977</p>
+    <p style="color: rgb(247, 243, 243);">GitHub: github.com/IKamunya-web</p>
+    <form class="contact-form" action="https://formspree.io/f/mdkdlwpe" method="POST">
+  <label form ="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <label form ="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <label form ="message">Message:</label>
+  <textarea id="message" name="message" rows="4" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+  </details>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Immaculate Kamunya. All rights reserved.</p>
+  </footer>
+</body>
+</html>
